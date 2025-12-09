@@ -1,0 +1,36 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fae1e1;
+    color: #5f0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#app {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(100, 32, 32, 0.2);
+    text-align: center;
+}
+
+input,
+select {
+    width: 100px;
+    padding: 8px;
+    margin: 0 8px;
+    border: 1px solid #5f0e0e;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.result {
+    margin-top: 24px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
