@@ -21,12 +21,19 @@ body {
 
 input,
 select {
-    width: 100px;
     padding: 8px;
     margin: 0 8px;
     border: 1px solid #5f0e0e;
     border-radius: 4px;
     font-size: 1rem;
+    text-align: center;
+}
+input {
+    width: 100px;
+}
+
+select {
+    width: 150px;
 }
 
 .result {

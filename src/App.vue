@@ -37,10 +37,10 @@ const resultado = computed(() => {
 			<div class="inputs">
 				<input v-model.number="estado.numero1" type="number" placeholder="Número 1">
 				<select v-model="estado.operacao">
-					<option value="adicao">+</option>
-					<option value="subtracao">-</option>
-					<option value="multiplicacao">*</option>
-					<option value="divisao">/</option>
+					<option value="adicao">+ adição</option>
+					<option value="subtracao">- subtração</option>
+					<option value="multiplicacao">* multiplicação</option>
+					<option value="divisao">/ divisão</option>
 				</select>
 				<input v-model.number="estado.numero2" type="number" placeholder="Número 2">
 			</div>
